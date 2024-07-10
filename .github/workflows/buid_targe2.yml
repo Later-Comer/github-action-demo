@@ -73,6 +73,7 @@ jobs:
         if: ${{ success() }}
         shell: bash
         run: |
+          source tools/check-ci.sh
           pwd
           # git remote -v
           # source ~/.env/env.sh
