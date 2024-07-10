@@ -27,3 +27,4 @@ fi
 
 echo "ci = $CI"
 echo "gihub_actions = $GITHUB_ACTIONS"
+echo "ci_name = $CI_NAME"
